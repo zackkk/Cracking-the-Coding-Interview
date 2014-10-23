@@ -11,7 +11,9 @@ public:
 
 		int i = low; 
 		int j = high;
+
 		while(i != j){
+			// start from right
 			while(arr[j] >= pivot && i < j)
 				j--;
 			while(arr[i] <= pivot && i < j)
@@ -21,6 +23,7 @@ public:
 			if(i < j)
 				swap(arr, i, j);
 		}
+		// put pivot on its "deserved" position
 		arr[low] = arr[i];
 		arr[i] = pivot;
 
