@@ -1,6 +1,13 @@
-// Write a method to shuffle a deck of cards. 
-// It must be a perfect shuffle - in other words, each 52! permutations of the deck has to be equally likely. 
-// Assume that you are given a random number generator which is perfect.
+/*
+20.2
+	Write a method to shuffle a deck of cards. 
+	It must be a perfect shuffle - in other words, each 52! permutations of the deck has to be equally likely. 
+	Assume that you are given a random number generator which is perfect.
+20.3
+	Write a method to randomly generate a set of m integers from an array of size n. 
+	Each element must have equal probability of being chosen.
+
+*/
 
 
 //            Array: [1] [2] [3] [4] [5]
