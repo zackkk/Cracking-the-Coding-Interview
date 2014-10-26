@@ -3,11 +3,11 @@
 /*
 suffix tree for bananas (construct from the end)
 
-			        *
+			                *
 		/		|		|		\
-   bananas     na       a		 s
-             /   \    /   \
-			nas   s  na    s
-			        /  \
-				   s   nas
+             bananas            na              a		 s
+                               /   \          /   \
+			      nas   s        na    s
+			                    /  \
+				           s   nas
 */
